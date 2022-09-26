@@ -1,0 +1,104 @@
+div {
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+}
+.text {
+    text-align: center;
+    background: #DCDCDC; 
+    font-size:250%
+}
+
+  table { 
+    color : white;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+    table-layout: fixed;
+    empty-cells: hide;
+  }
+  
+  table th,
+  table td {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: normal;
+  }
+  
+  table th {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: middle;
+    font-size: 12px;
+    opacity : 0.6;
+    border: 1px solid  #808080
+  }
+  
+  table thead tr>th:nth-last-child(1),
+  table tbody tr>td:nth-last-child(1) {
+    color : rgb(183,123,226);
+  }
+  
+  table thead tr>th:nth-last-child(2),
+  table tbody tr>td:nth-last-child(2) {
+    color : rgb(0,143,190);
+  }
+  
+  table thead tr>th:nth-last-child(3),
+  table tbody tr>td:nth-last-child(3) {
+    color : rgb(147,241,223);
+  }
+  
+  table thead tr>th:nth-last-child(4),
+  table tbody tr>td:nth-last-child(4) {
+    color : rgb(194,109,77);
+  }
+  
+  table thead tr>th:nth-last-child(5),
+  table tbody tr>td:nth-last-child(5) {
+    color : rgb(111,109,77);
+  }
+  
+  table thead tr>th:nth-last-child(18),
+  table tbody tr>td:nth-last-child(18) {
+    color : rgb(247,0,85);
+  }
+  
+  .chemical {
+    font-size:12px;
+    padding : 10px;
+    text-align: right;
+    border: 1px solid   #808080
+  }
+  
+  .chemical span {
+    font-size:12px;
+    width: 100%;
+    display: block;
+    line-height: 1em;
+    opacity : 0.5;
+  }
+  
+  .chemical .number {
+    text-align: right;
+    line-height: 0.7em;
+  }
+  
+  .chemical .symbol {
+    font-weight: 600;
+    font-size:2.17em;
+    opacity : 1;
+    width: 90%;
+  }
+  
+  .chemical .name {
+    padding-top:5px;
+  }
+  
+  .chemical .mass {
+    padding-top:5px;
+  }
+  IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
