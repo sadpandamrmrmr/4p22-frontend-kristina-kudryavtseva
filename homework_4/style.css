@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box; border-radius: 30px;
+ }
+ .product-item { 
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    
+    background: white;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+    
+ }
+ .product-item:hover { 
+   -webkit-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+    border-bottom: 2px solid #fc5a5a;
+    border-radius: 30px;
+ }
+ .product-item img {  display: flex;    
+    flex-wrap:wrap; 
+   row-gap: 10px; /* расстояние между строками*/    
+   column-gap: 30px; /* расстояние между столбцами*/
+   height:400px;
+   width:300px;
+ }
+ .product-list {
+    background: #fafafa;
+    padding: 15px 0;
+ }
+ .product-list h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+    font-family: cursive;
+ }
+ .price {
+    font-size: 16px;
+    color: #fc5a5a;
+    display: block;
+    margin-bottom: 12px;
+ }
+ .button {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+ }
+ .product-item:hover .button {
+    background: #fc5a5a;
+ }
+
+ .logo 
+ { font-family:  cursive;
+   background: #FFC0CB; /* Цвет фона под заголовком      "Brush Script MT", Brush Script Std, cursive       OpenType   TrueType  Snell Roundhand, cursive*/
+   text-align:center; 
+   font-size:300%;
+   }
+
+
+    IMG.displayed {
+        size: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto 
+    }
+    
+    html {
+        background-image: url(images/fon.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    
+      .container {    
+         display: flex;    
+         flex-wrap: wrap;    
+         row-gap: 10px; /* расстояние между строками*/    
+         column-gap: 30px; /* расстояние между столбцами*/
+
+      }
+
+      .c-button {
+         min-width: 100px;
+         appearance: none;
+         border: 0;
+         border-radius: 30px;
+         background: #be7d7d;
+         color: #fff;
+         padding: 8px 16px;
+         font-size: 16px;
+         font-family: cursive;
+         cursor: pointer;
+       }
+
+       .c-button:hover {
+         background: #eb8f8f;
+       }
+       
+       .c-button:focus {
+         outline: none;
+         box-shadow: 0 0 0 4px #cbd6ee;
+
+      }
+
+
+   
+       
+      
+       
+       a {
+         outline: none;
+         text-decoration: none;
+         padding: 2px 1px 0;
+       }
+       
+       a:link {
+         color: #ebdfdf;
+       }
+       
+       a:visited {
+         color: #ebdfdf;
+       }
+       
+       a:focus {
+         border-bottom: 1px solid;
+         background: #f879a3;
+       }
+       
+       a:hover {
+         border-bottom: 1px solid;
+         background: #e98585;
+       }
+       
+       a:active {
+         background: #dfc4c4;
+         color: #d19898;
+       }
