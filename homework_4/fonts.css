@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Glory Signature Personal Use';
+    src: url('fonts/GlorySignaturePersonalUse.woff2') format('woff2'),
+        url('fonts/GlorySignaturePersonalUse.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Banty';
+    src: url('fonts/BantyBold.woff2') format('woff2'),
+        url('fonts/BantyBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'PT Rouble Serif';
+    src: url('fonts/PTRoubleSerif.woff2') format('woff2'),
+        url('fonts/PTRoubleSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Rouble Decorative';
+    src: url('fonts/PTRoubleDecorative.woff2') format('woff2'),
+        url('fonts/PTRoubleDecorative.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Rouble Sans';
+    src: url('fonts/PTRoubleSans.woff2') format('woff2'),
+        url('fonts/PTRoubleSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
