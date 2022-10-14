@@ -1,3 +1,4 @@
+
 /* основное содержимое */
 /* стили логотипа */
 .main-logo-1 {
@@ -8,13 +9,11 @@
 }
 
 .main-logo-2 {      
-    position:absolute;
-    bottom: -100;
+    position:fixed;
+    bottom: 0;
     width: 40%;
-    right: 220px;
+    right: 0;
 }
-
-
 
 
 .main {
@@ -29,9 +28,8 @@ div {
     box-sizing: border-box;
 }
 
-html {
-    background: rgb(255, 196, 209);
-    font-family:cursive;
+html {background: rgb(255, 196, 209); 
+    font-family: 'Malahit';
 }
 
 ul {   list-style-type: none;   
@@ -77,6 +75,7 @@ li a:hover {
 
 
 .header__title {   
+ 
     padding: 35px 0px 0px 0px;
     padding-right: 17%;
     color: rgb(32, 14, 17);
@@ -134,3 +133,4 @@ li a:hover {
     height: 210px;
     visibility: hidden;
 }
+
