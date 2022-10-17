@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'TRY Clother';
+    src: url('fonts/TRYClother-Black.woff2') format('woff2'),
+        url('fonts/TRYClother-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TRY Clother';
+    src: url('fonts/TRYClother-Bold.woff2') format('woff2'),
+        url('fonts/TRYClother-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+
+@font-face {
+	font-family: 'mr_DopestyleG';
+	
+	src: url('fonts/mr_dopestyleg.woff2') format('woff2'), 
+		url('fonts/mr_dopestyleg.woff') format('woff'), ;
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+
+    }
+
+
+    @font-face {
+        font-family: 'Malahit';
+        src: url('fonts/Malahit-Bold.woff2') format('woff2'),
+            url('fonts/Malahit-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    

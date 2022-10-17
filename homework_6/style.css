@@ -1,0 +1,152 @@
+
+/* основное содержимое */
+/* стили логотипа */
+* {
+    box-sizing: border-box;
+   
+}
+
+.main-logo-1 {
+    width: 40%;
+    position:absolute;
+    top: 200px;
+    left: 77px;
+}
+
+.main-logo-2 {      
+    position:fixed;
+    bottom: 0;
+    width: 40%;
+    min-width: 300px;
+   
+}
+
+
+.main {
+    flex: 1 0 auto;
+}
+
+div {
+    display: block;
+}
+
+
+html {
+    background: rgb(255, 196, 209); 
+    font-family: 'Malahit';
+}
+
+ul {   list-style-type: none;   
+    margin: 0;
+}
+  
+
+.container {
+   
+    display: flex;
+    flex-direction: column;
+    min-height: 720px;
+
+}
+
+.header {
+    flex: 0 0 auto;
+}
+
+.header__wrapper { 
+    text-align: center;
+    position: fixed;
+    left: -180px;
+    width: 150%;
+    display: flex;
+    height: 100px;
+    background-color:rgb(189, 111, 137);
+    /*font-size: 20px;*/
+  font-size: calc(24/720*100vw);
+    font-size: calc(24/2560*100vw);
+    justify-content: space-around;
+   
+}
+
+.header__percentage { width: 50%;
+    height: 50%;
+
+}
+
+li a:hover {
+    background-color: rgb(230, 146, 164);
+    color: white;}
+
+
+.header__img {
+    height: 100%;
+}
+
+
+
+.header__title {  
+    position: sticky;
+    left: 300px;
+    padding: 35px 0px 0px 0px;
+    padding-right: 15%;
+    color: rgb(32, 14, 17);
+   
+}
+
+.directory {
+    position: absolute;
+    top: 220px;
+    left: 340px;
+    width: 75%;
+    padding-bottom: 280px;
+    font-size: xx-large;
+    z-index: -1;
+}
+
+.directory__wrapper {
+    background-color: rgb(255, 196, 209);
+}
+
+.directory__element {
+    background-color: rgb(255, 196, 209);
+   
+}
+
+.directory__element-subtitle {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 150px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    padding: 6px 6px 6px 10px;
+    text-align: center;
+    font-size: 24px;
+    background-image: url(images/icons8-загрузка-в-форме-сердца-24.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+}
+
+.directory__element-list {   
+    font-size: calc(24/720*100vw);
+    font-size: calc(24/2560*100vw);
+    padding: 8px;
+}
+
+.directory__element-item {
+    color: rgb(32, 14, 17);
+    margin-bottom: 15px;
+
+   
+}
+
+*[id]:before {
+    display: block;
+    content: " ";
+    margin-top: -210px;
+    height: 210px;
+    visibility: hidden;
+}
+
