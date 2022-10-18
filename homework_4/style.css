@@ -104,41 +104,59 @@
       }
 
       .c-button {
-         min-width: 10px;
-         appearance: none;
-         border: 0;
+        position: relative;
+        left: 23px;
+        font-size: 30px;
+        text-align: center;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px rgb(248, 193, 202);
+        border-radius: 30px;
+        background-image: linear-gradient(to right, #FFC0CB 0%, rgb(224, 127, 144) 51%, #FFC0CB 100%);
+        font-family: 'Glory Signature Personal Use';
+        border-bottom: 2px solid #fdb0b0;
+        border-left: 2px solid #fdb0b0;
+        border-right: 2px solid #fdb0b0;
+        border-top: 2px solid #fdb0b0
+      }
+      
+
+      .c-button:hover { 
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        object-fit: cover;
          border-radius: 30px;
-         background: #c46776;
-         color: rgb(255, 255, 255);
-         padding: 8px 8px;
-         font-size: 30px;
-         font-family: 'Glory Signature Personal Use';
-         cursor: pointer;
-       }
-
-       .c-button:hover {
-         background:#eb8f8f;
-       }
-       
-       .c-button:focus {
-         outline: none;
-         box-shadow: 0 0 0 4px #cbd6ee;
-
+        box-shadow:  10px 10px 40px 10px #00000029;
       }
 
-       
+      .icon-excel {
+        background-image: url("images/icons8-смс-70.png");
+        padding-left : 100px;
+        background-repeat : no-repeat;
+      }
+
+        .icon {
+          background-image: url("images/icons8-эл.-адрес-70.png");
+          padding-left : 100px;
+          background-repeat : no-repeat;
+        }
+     
+    
        a {
+
          outline: none;
          text-decoration: none;
-         padding: 2px 1px 0;
+         padding: 20px 1px 0;
        }
        
        a:link {
-         color: #ebdfdf;
-       }
+        color: #1b1919fb;
+      }
        
        a:visited {
-         color: #ebdfdf;
+         color: #e0d1d1;
        }
        
        a:focus {
@@ -146,12 +164,5 @@
          background:  #f879a3;
        }
        
-       a:hover {
-         border-bottom: 1px solid;
-         background: #e98585;
-       }
-       
-       a:active {
-         background: #dfc4c4;
-         color: #d19898;
-       }
+     
+     
