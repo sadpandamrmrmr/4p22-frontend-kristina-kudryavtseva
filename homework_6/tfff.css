@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Malahit';
-    src: url('Malahit-Bold.woff2') format('woff2'),
-        url('Malahit-Bold.woff') format('woff');
+    src: url('fonts/Malahit-Bold.woff2') format('woff2'),
+        url('fonts/Malahit-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
